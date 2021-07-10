@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Animation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="media/success.png" type="image/x-icon">
+</head>
+<body onload="setPlaySpeed()">
+    <div class="text">
+        <h1>Go Ahead!</h1>
+        <p>Success in <i class="fas fa-infinity"></i> km!</p>
+        <p>Never stop until your destination.</p>
+    </div>
+    <img src="media/success.png" alt="" class="success-img">
+    <video class="bg-video" id="myVideo" width="320" height="176" src="media/road.mp4"  autoplay loop muted></video>
+      <img src="media/skating.gif" class="skate">
+    <img src="media/motor.png" alt="" class="bike">
+    <img src="media/car.png" alt="" class="car">
+      <script>
+      var vid = document.getElementById("myVideo");
+      function setPlaySpeed() {
+        vid.playbackRate = 4;
+      }
+      </script>
+    <!-- <script>
+        var vid = document.getElementById("bgVideo");
+        function setPlaySpeed() {
+        vid.playbackRate = 50;
+        }
+    </script> -->
+</body>
+</html>
