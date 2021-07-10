@@ -50,26 +50,26 @@ p{
     overflow: hidden;
 }
 .bike{
-    z-index: 20;
+    z-index: 5;
     position: absolute;
-    bottom: 0;
-    right: 22%;
+    bottom: 98px;
+    right: 28%;
     margin: auto;
-    width: 450px;
+    width: 385px;
 }
 .skate{
-    z-index: 20;
+    z-index: -1;
     position: absolute;
-    bottom: -15px;
-    right: 40%;
+    bottom: 250px;
+    left: 48%;
     margin: auto;
-    width: 280px;
+    width: 90px;
 }
 .car{
     z-index: 10;
     position: absolute;
-    bottom: 100px;
-    left: 24%;
+    bottom: -80px;
+    right: 39%;
     margin: auto;
-    width: 380px;
+    width: 585px;
 }
